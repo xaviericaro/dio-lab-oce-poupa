@@ -1,6 +1,9 @@
-data,canal,tema,resumo,resolvido
-2025-09-15,chat,CDB,Cliente perguntou sobre rentabilidade e prazos,sim
-2025-09-22,telefone,Problema no app,Erro ao visualizar extrato foi corrigido,sim
-2025-10-01,chat,Tesouro Selic,Cliente pediu explicação sobre o funcionamento do Tesouro Direto,sim
-2025-10-12,chat,Metas financeiras,Cliente acompanhou o progresso da reserva de emergência,sim
-2025-10-25,email,Atualização cadastral,Cliente atualizou e-mail e telefone,sim
+data,canal,assunto,resumo_pergunta,resumo_resposta,resolvido
+2026-05-05,chat,Poupança vs CDB,Cliente perguntou qual a diferença entre poupança e CDB,Explicado que o CDB costuma render mais e que ambos têm liquidez diária dependendo do tipo,sim
+2026-05-14,chat,Orçamento mensal,Cliente pediu ajuda para entender por que gastou mais que o previsto em Alimentação,Identificado aumento de pedidos por iFood no mês; sugerido definir um limite semanal,sim
+2026-06-02,chat,Reserva de emergência,Cliente perguntou quanto deveria guardar como reserva de emergência,Explicado o conceito de reserva equivalente a 6 meses de despesas fixas e sugerido Tesouro Selic como opção de baixo risco,sim
+2026-06-11,chat,Cartão de crédito,Cliente perguntou como reduzir a fatura do cartão de crédito,Sugerido revisar assinaturas ativas e parcelar apenas compras essenciais,sim
+2026-06-20,chat,Perfil de investidor,"Cliente teve dúvida sobre o que significa ser perfil ""Moderado""","Explicado que perfil moderado aceita alguma oscilação em troca de retorno maior que a renda fixa tradicional, mas sem exposição alta a renda variável",sim
+2026-07-01,chat,Meta de economia,Cliente perguntou se está no caminho certo para atingir a meta de reserva de emergência,Calculado progresso com base nas transações do mês e informado percentual da meta já alcançado,sim
+2026-07-08,chat,Produto fora do perfil,Cliente perguntou sobre investir em criptoativos,Informado que criptoativos são compatíveis apenas com perfil Arrojado e o cliente é perfil Moderado; sugerido reavaliar perfil de risco antes de prosseguir,sim
+2026-07-11,chat,Gastos com transporte,Cliente perguntou por que os gastos com transporte aumentaram,Identificado aumento no uso de Uber e combustível em julho comparado aos meses anteriores,sim

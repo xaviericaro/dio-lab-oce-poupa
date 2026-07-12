@@ -1,11 +1,64 @@
-data,descricao,categoria,valor,tipo
-2025-10-01,Salário,receita,5000.00,entrada
-2025-10-02,Aluguel,moradia,1200.00,saida
-2025-10-03,Supermercado,alimentacao,450.00,saida
-2025-10-05,Netflix,lazer,55.90,saida
-2025-10-07,Farmácia,saude,89.00,saida
-2025-10-10,Restaurante,alimentacao,120.00,saida
-2025-10-12,Uber,transporte,45.00,saida
-2025-10-15,Conta de Luz,moradia,180.00,saida
-2025-10-20,Academia,saude,99.00,saida
-2025-10-25,Combustível,transporte,250.00,saida
+data,descricao,categoria,tipo,valor
+2026-05-01,Salário - Empresa Exemplo Ltda,Renda,entrada,6500.00
+2026-05-02,Aluguel,Moradia,saida,1800.00
+2026-05-02,Condomínio,Moradia,saida,420.00
+2026-05-03,Supermercado Extra,Alimentação,saida,480.35
+2026-05-04,Uber,Transporte,saida,28.90
+2026-05-05,Academia SmartFit,Saúde,saida,99.90
+2026-05-06,Netflix,Assinaturas,saida,44.90
+2026-05-06,Spotify,Assinaturas,saida,21.90
+2026-05-07,Farmácia São Paulo,Saúde,saida,63.20
+2026-05-08,iFood,Alimentação,saida,58.70
+2026-05-09,Posto Ipiranga - Combustível,Transporte,saida,180.00
+2026-05-10,Cinema Shopping,Lazer,saida,64.00
+2026-05-12,Curso Online Udemy,Educação,saida,89.90
+2026-05-13,Supermercado Extra,Alimentação,saida,395.10
+2026-05-15,Conta de Luz,Moradia,saida,210.45
+2026-05-15,Conta de Água,Moradia,saida,95.30
+2026-05-16,Internet + TV,Moradia,saida,129.90
+2026-05-18,iFood,Alimentação,saida,72.40
+2026-05-20,Aplicação CDB Liquidez Diária,Investimentos,saida,500.00
+2026-05-22,Uber,Transporte,saida,35.60
+2026-05-25,Restaurante - Jantar,Alimentação,saida,145.00
+2026-05-28,Farmácia São Paulo,Saúde,saida,48.90
+2026-05-30,Cartão de Crédito - Fatura,Cartão,saida,980.45
+2026-06-01,Salário - Empresa Exemplo Ltda,Renda,entrada,6500.00
+2026-06-02,Aluguel,Moradia,saida,1800.00
+2026-06-02,Condomínio,Moradia,saida,420.00
+2026-06-03,Supermercado Extra,Alimentação,saida,510.20
+2026-06-04,Uber,Transporte,saida,42.30
+2026-06-05,Academia SmartFit,Saúde,saida,99.90
+2026-06-06,Netflix,Assinaturas,saida,44.90
+2026-06-06,Spotify,Assinaturas,saida,21.90
+2026-06-07,iFood,Alimentação,saida,89.90
+2026-06-08,iFood,Alimentação,saida,65.30
+2026-06-09,Posto Ipiranga - Combustível,Transporte,saida,195.00
+2026-06-10,Show - Ingresso,Lazer,saida,220.00
+2026-06-12,Farmácia São Paulo,Saúde,saida,77.50
+2026-06-14,Supermercado Extra,Alimentação,saida,430.00
+2026-06-15,Conta de Luz,Moradia,saida,245.80
+2026-06-15,Conta de Água,Moradia,saida,88.20
+2026-06-16,Internet + TV,Moradia,saida,129.90
+2026-06-18,iFood,Alimentação,saida,94.20
+2026-06-19,Uber,Transporte,saida,51.00
+2026-06-20,Aplicação Tesouro Selic,Investimentos,saida,700.00
+2026-06-22,Restaurante - Jantar,Alimentação,saida,168.00
+2026-06-25,iFood,Alimentação,saida,102.40
+2026-06-28,Farmácia São Paulo,Saúde,saida,55.00
+2026-06-30,Cartão de Crédito - Fatura,Cartão,saida,1240.75
+2026-07-01,Salário - Empresa Exemplo Ltda,Renda,entrada,6500.00
+2026-07-02,Aluguel,Moradia,saida,1800.00
+2026-07-02,Condomínio,Moradia,saida,420.00
+2026-07-03,Supermercado Extra,Alimentação,saida,450.00
+2026-07-03,Streaming,Assinaturas,saida,55.00
+2026-07-04,Uber,Transporte,saida,60.10
+2026-07-05,Academia SmartFit,Saúde,saida,99.90
+2026-07-06,Netflix,Assinaturas,saida,44.90
+2026-07-06,Spotify,Assinaturas,saida,21.90
+2026-07-07,iFood,Alimentação,saida,110.30
+2026-07-08,Uber,Transporte,saida,32.00
+2026-07-08,iFood,Alimentação,saida,58.90
+2026-07-09,Posto Ipiranga - Combustível,Transporte,saida,205.00
+2026-07-10,Cinema Shopping,Lazer,saida,72.00
+2026-07-11,iFood,Alimentação,saida,84.60
+2026-07-12,Farmácia São Paulo,Saúde,saida,39.90

@@ -1,23 +1,81 @@
 {
-  "nome": "João Silva",
-  "idade": 32,
-  "profissao": "Analista de Sistemas",
-  "renda_mensal": 5000.00,
-  "perfil_investidor": "moderado",
-  "objetivo_principal": "Construir reserva de emergência",
-  "patrimonio_total": 15000.00,
-  "reserva_emergencia_atual": 10000.00,
-  "aceita_risco": false,
-  "metas": [
+  "cliente": {
+    "id": "cli_001",
+    "nome": "João Silva",
+    "idade": 32,
+    "profissao": "Analista de Sistemas",
+    "renda_mensal": 6500.00,
+    "estado_civil": "Solteiro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG"
+  },
+  "perfil_risco": {
+    "classificacao": "Moderado",
+    "data_ultima_avaliacao": "2026-06-15",
+    "valido_ate": "2026-12-15",
+    "questionario_suitability": [
+      {
+        "pergunta": "Qual sua reação se um investimento caísse 10% em um mês?",
+        "resposta": "Ficaria incomodado, mas manteria o investimento esperando recuperação",
+        "pontuacao": 2
+      },
+      {
+        "pergunta": "Qual seu horizonte de investimento principal?",
+        "resposta": "3 a 5 anos",
+        "pontuacao": 2
+      },
+      {
+        "pergunta": "Você já investiu em produtos de renda variável antes?",
+        "resposta": "Sim, esporadicamente",
+        "pontuacao": 2
+      },
+      {
+        "pergunta": "Qual parcela da sua renda você consegue investir por mês?",
+        "resposta": "Entre 10% e 20%",
+        "pontuacao": 2
+      }
+    ],
+    "pontuacao_total": 8,
+    "observacao": "Perfil reavaliado a cada 6 meses ou quando o cliente solicitar. Recomendações de produtos devem respeitar apenas os itens compatíveis com a classificação atual."
+  },
+  "objetivos_financeiros": [
     {
-      "meta": "Completar reserva de emergência",
-      "valor_necessario": 15000.00,
-      "prazo": "2026-06"
+      "id": "obj_001",
+      "descricao": "Reserva de emergência",
+      "valor_meta": 19500.00,
+      "prazo": "12 meses",
+      "valor_atual": 6200.00,
+      "prioridade": "Alta"
     },
     {
-      "meta": "Entrada do apartamento",
-      "valor_necessario": 50000.00,
-      "prazo": "2027-12"
+      "id": "obj_002",
+      "descricao": "Viagem internacional",
+      "valor_meta": 8000.00,
+      "prazo": "18 meses",
+      "valor_atual": 1200.00,
+      "prioridade": "Média"
+    },
+    {
+      "id": "obj_003",
+      "descricao": "Aposentadoria complementar",
+      "valor_meta": null,
+      "prazo": "Longo prazo (20+ anos)",
+      "valor_atual": 0.00,
+      "prioridade": "Baixa"
     }
-  ]
+  ],
+  "situacao_atual": {
+    "reserva_emergencia_meses_cobertos": 2.1,
+    "possui_divida_ativa": true,
+    "descricao_divida": "Fatura de cartão de crédito parcelada",
+    "produtos_em_carteira": [
+      { "produto_id": "cdb_liquidez_diaria", "valor_aplicado": 500.00, "data_aplicacao": "2026-05-20" },
+      { "produto_id": "tesouro_selic", "valor_aplicado": 700.00, "data_aplicacao": "2026-06-20" }
+    ]
+  },
+  "preferencias_comunicacao": {
+    "frequencia_alertas": "Semanal",
+    "canais": ["chat"],
+    "receber_educacao_financeira": true
+  }
 }
